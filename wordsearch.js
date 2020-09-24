@@ -18,6 +18,8 @@ const wordSearch = (letters, word) => {
           }
       };
   };
+
+  
   let wordsArray = [];
   for (array in newArr) {
       wordsArray.push(newArr[array].join(""));
